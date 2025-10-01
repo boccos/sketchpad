@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1a1a1a;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    padding: 0.25em;
+    background-color: white;
+}
