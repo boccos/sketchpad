@@ -11,6 +11,11 @@ body {
     text-align: center;
 }
 
+#buttonContainer{
+    display: flex;
+    gap: 2em;
+}
+
 .row {
     display: flex;
 }
