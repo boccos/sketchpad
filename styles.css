@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,13 +14,17 @@ body {
 #buttonContainer{
     display: flex;
     gap: 2em;
+    margin-bottom: 1em;
 }
+
 
 .row {
     display: flex;
+    flex: 1 1;
 }
 
 .col {
     padding: 0.25em;
     background-color: white;
+    flex: 1 1;
 }
