@@ -25,7 +25,6 @@ body {
 
 .bottomBar{
     display: flex;
-    flex: 1 1;
     justify-content: center;
     align-content: center;
     padding: 2em;
@@ -39,6 +38,9 @@ body {
     outline: none;
     cursor: pointer;
     box-shadow: 0.1em;
+    aspect-ratio: 1 / 1;
+    width: 5em;
+    height: 5em;
 }
 
 .bottomBar .blue{
@@ -48,6 +50,9 @@ body {
     outline: none;
     cursor: pointer;
     box-shadow: 0.1em;
+    aspect-ratio: 1 / 1;
+    width: 5em;
+    height: 5em;
 }
 
 .bottomBar .green{
@@ -57,6 +62,9 @@ body {
     outline: none;
     cursor: pointer;
     box-shadow: 0.1em;
+    aspect-ratio: 1 / 1;
+    width: 5em;
+    height: 5em;
 }
 
 .bottomBar .randomColor{
@@ -66,6 +74,9 @@ body {
     outline: none;
     cursor: pointer;
     box-shadow: 0.1em;
+    aspect-ratio: 1 / 1;
+    width: 5em;
+    height: 5em;
 }
 
 .bottomBar .clear{
@@ -75,6 +86,9 @@ body {
     outline: none;
     cursor: pointer;
     box-shadow: 0.1em;
+    aspect-ratio: 1 / 1;
+    width: 5em;
+    height: 5em;
 }
 
 #container{
