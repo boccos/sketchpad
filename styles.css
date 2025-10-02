@@ -108,4 +108,8 @@ body {
     background-color: white;
     flex: 1 1;
     aspect-ratio: 1 / 1;
+    
+}
+.col:hover {
+    filter: brightness(0.8);
 }
